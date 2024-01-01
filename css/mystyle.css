@@ -35,5 +35,13 @@ i.color-mode-icon.mobile_icon{
     i.color-mode-icon.desktop {
         display: none;
     }
+
+    .dark-mode .navbar-light .navbar-nav .nav-link{
+        color: #5b5b5b !important;
+    }
+
+    .navbar-collapse{
+        text-align: left !important;
+    }
     
 }
