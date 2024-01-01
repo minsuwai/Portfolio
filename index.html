@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Marvel HTML Bootstrap 4 Template</title>
+    <title>Min Su Wai</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unicons.css">
@@ -27,6 +27,9 @@ https://www.tooplate.com/view/2115-marvel
   </head>
   <body>
 
+    <div class="loader_wrapper">
+      <span class="loader"></span>
+    </div>
     <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
@@ -322,5 +325,10 @@ https://www.tooplate.com/view/2115-marvel
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
 
+    <script>
+      $(window).on("load", function(){
+        $(".loader_wrapper").fadeOut("slow")
+      });
+    </script>
   </body>
 </html>
