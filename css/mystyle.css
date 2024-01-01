@@ -1,0 +1,11 @@
+.container .navbar-brand .logo{
+    width: 70%;
+}
+
+.small-text{
+    padding: 0px;
+}
+
+.navbar > .container, .navbar > .container-fluid{
+    justify-content: end;
+}
