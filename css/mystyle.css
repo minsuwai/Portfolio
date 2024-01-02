@@ -176,5 +176,15 @@ section#contact {
 h2.mb-4 {
   text-align: center;
 }
+
+dotlottie-player {
+  width: 80% !important;
+  margin: auto;
+}
+
+.footer .container {
+  margin: auto;
+  padding: 0px 15px;
+}
     
 }
