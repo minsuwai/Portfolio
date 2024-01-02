@@ -100,6 +100,18 @@ i.color-mode-icon.mobile_icon{
     display: none;
 }
 
+.social-links li {
+  padding-top: 10px;
+}
+
+ul.navbar-nav.mx-auto{
+  margin-right: 0px !important;
+}
+
+ul.navbar-nav.ml-lg-auto{
+  margin-left: 50px !important;
+}
+
 @media only screen and (max-width: 768px) {
     i.color-mode-icon.mobile_icon{
         display: block;
@@ -148,8 +160,8 @@ i.color-mode-icon.mobile_icon{
     width: 70%;
 }
 
-.about-image svg {
-  width: 90% !important;
+.about-image.svg {
+  overflow: hidden !important;
 }
 
 .social-links li {
