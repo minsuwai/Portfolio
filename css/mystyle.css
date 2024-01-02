@@ -125,9 +125,7 @@ ul.navbar-nav.ml-lg-auto{
         margin-top: -100px;
     }
 
-    .navbar > .container, .navbar > .container-fluid{
-        /* justify-content: end; */
-    }
+
 
     .ml-lg-4 {
       /* margin-top: -100px; */
@@ -177,14 +175,9 @@ h2.mb-4 {
   text-align: center;
 }
 
-dotlottie-player {
+.about-image dotlottie-player {
   width: 80% !important;
   margin: auto;
-}
-
-.footer .container {
-  margin: auto;
-  padding: 0px 15px;
 }
     
 }
