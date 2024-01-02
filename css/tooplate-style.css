@@ -242,6 +242,7 @@ b, strong {
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:first-child {
   transform: rotate(45deg);
   top: 6px;
+  width: 100%;
 }
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-child(2) {
   display: none;
@@ -258,6 +259,7 @@ b, strong {
   margin: 5px 0;
   transition: all 0.4s ease;
   position: relative;
+  border-radius: 50px;
 }
 
 .copyright-text {
@@ -278,14 +280,14 @@ b, strong {
 .color-mode-icon:after {
   font-family: 'unicons';
   content: '\ea9f';
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 300;
   font-style: normal;
 }
 .color-mode-icon.active:after {
   font-family: 'unicons';
   content: '\eb65';
-  font-size: 30px;
+  font-size: 20px;
   color: #ffffff;
 }
 
