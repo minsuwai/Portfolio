@@ -476,7 +476,7 @@ section.skill {
 
 .skill img {
   width: 50px;
-  background-color: #71aec8;
+  background-color: #3b3f41;
   border-radius: 10px;
   padding: 10px;
 }
@@ -496,4 +496,20 @@ ul.social-links {
   flex-direction: row;
   column-gap: 40px;
   margin: 30px 0px;
+}
+
+.tech-stack {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.tech-stack-items {
+  font-size: 15px;
+}
+
+.job-company-education {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
