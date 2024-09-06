@@ -311,9 +311,14 @@ b, strong {
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
-.dark-mode .color-mode {
+.dark-mode .color-mode, .dark-mode p, .dark-mode .timeline-info small, .dark-mode span {
   color: #ffffff;
 }
+
+.dark-mode .card-body {
+    background-color: #474559;
+}
+
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
