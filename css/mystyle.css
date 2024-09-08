@@ -53,6 +53,10 @@ body {
   animation-delay: .4s;
 }
 
+.dark-mode a.developed-by {
+  color: #17a2b8;
+}
+
 @keyframes rotate {
   0% {
     transform: translate(-50%, -50%) rotateZ(0deg);
@@ -343,10 +347,18 @@ section.profile_view {
   animation: slideIn 2s;
 }
 
+@media (max-width: 425.99px) {
+.project_cards {
+  display: block !important;
+}
+}
+
 @media (min-width: 768px) {
   .button-54 {
     padding: 0.25em 0.75em;
   }
+
+
 }
 
 /* body {
@@ -369,7 +381,7 @@ section.profile_view {
   }
 
   .project_cards {
-    display: block !important;
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 
   .project_cards .card {
@@ -436,10 +448,14 @@ section.profile_view {
 
 
 .project_cards {
-  display: flex;
+  display: grid;
   gap: 20px;
   justify-content: center;
-  margin: 0px 30px;
+  /* margin: 0px 30px; */
+  max-width: 1140px;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 30px;
 }
 
 .category {
@@ -455,7 +471,7 @@ section.profile_view {
 }
 
 .project_cards .card {
-  width: 25rem;
+  /* width: 25rem; */
 }
 
 .card:hover .category {
@@ -501,7 +517,7 @@ ul.social-links {
 .tech-stack {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 .tech-stack-items {
@@ -572,4 +588,6 @@ ul.social-links {
   top: 15px;
   right: 35px;
   }
+
+
 }

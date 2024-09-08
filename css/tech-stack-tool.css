@@ -1,0 +1,66 @@
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(240, 10%, 3.9%);
+  --primary: hsl(240, 5.9%, 10%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 4.8%, 95.9%);
+  --muted-foreground: hsl(240, 3.8%, 45%);
+  --radius: 0.5rem;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.skill {
+  /* background-color: var(--muted); */
+  padding: 3rem 0;
+}
+
+.skill_title h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: var(--primary);
+}
+
+.tech-stack-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.tech-stack-tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tech-stack-tool:hover {
+  transform: scale(1.1);
+}
+
+.tech-stack-tool img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  /* padding: 1rem; */
+  background-color: var(--background);
+}
+
+.tech-stack-tool span {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--primary);
+}
+
+.dark-mode .tech-stack-tool img {
+  background-color: #b7b7b7a1;
+  color: #fff;
+  opacity: 1.6;
+}
